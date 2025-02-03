@@ -7,6 +7,7 @@ A simple and interactive to-do list application built using **HTML**, **CSS**, a
 - **Delete tasks**: Remove tasks from the list.
 - **Update tasks**: Edit existing tasks.
 - **Mark as completed**: Check off tasks when they're done.
+- **Dynamic search**: Filter tasks in real-time as you type in the search bar.
 - **Local storage**: Tasks are saved in the browser's local storage, so they persist even after the page is closed or refreshed.
 
 ## Technologies Used
