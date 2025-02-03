@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lec3js.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script
+    src="https://kit.fontawesome.com/dc8407da84.js"
+    crossorigin="anonymous"></script>
+    <title>TODO LIST</title>
+</head>
+
+<body>
+    <div class="crud">
+        
+      <div class="head">
+        <h2> Hello to your TODO list</h2>
+      </div>  
+
+      <div  class="inputs">
+           <label for="todo title"></label>
+           <input   placeholder="todo title" type="text" id="todotitle" name="todo title" required oninput="Titlevalidation()">
+           <div id="error1"><span>ERROR!</span> only write characters!, max 10 characters</div>
+    
+            <label for="todo desc"></label>
+            <input   placeholder="write description" type="text" id="tododesc" name="todo desc" required oninput="Descvalidation()">
+            <div id="error2"><span>ERROR!</span>only write characters!, max 30 characters</div>
+            
+
+            <div id="horizontal">
+            <label for="search" ></label>
+             <input  placeholder="search..." type="text" id="search" name="search" oninput="search()">
+
+             <button type="submit" id="submit">ADD</button>
+
+             <!-- //trial only -->
+             <!-- <button class="d-none" type="update"   id="updatebtn"  onclick="UpdateData()">UPDATE</button>
+            </div> -->
+
+        </div>
+
+        <div id="outputs">
+
+            <!-- <div id="mytodolist"> -->
+               <!-- <p>Study js </p>
+               <div class="icons">
+                <i class="fa-solid fa-check" style="color: #4fff0f;"></i> 
+                <i class="fa-regular fa-pen-to-square fa-xs" style="color: #252627;"></i>
+                <i class="fa-solid fa-trash-can fa-xs" style="color: #333638;"></i></div>
+            </div> -->
+
+        <!-- </div> -->
+
+
+
+               <script src="lec3.js"></script>
+               <!-- <script src="todolist.js"></script> -->
+     </div>
+    </div>
+
+
+</body>
+</html>
